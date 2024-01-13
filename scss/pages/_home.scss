@@ -1,6 +1,6 @@
 .section-about {
   background-color: $color-grey-light-1;
-  padding: 25rem 0;
+  padding: 25rem 5rem;
   margin-top: -20vh;
 
   @include respond(tab-port) {
@@ -9,7 +9,7 @@
 }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 20rem 6rem;
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 1),
@@ -25,6 +25,10 @@
   transform: skewY(-7deg);
   margin-top: -10rem;
 
+  h3 {
+    color: $color-tertiary-dark;
+  }
+
   & > * {
     transform: skewY(7deg);
   }
@@ -36,7 +40,7 @@
 
 .section-tours {
   background-color: $color-grey-light-1;
-  padding: 25rem 0 15rem 0;
+  padding: 25rem 5rem 15rem 5rem;
   margin-top: -10rem;
 
   @include respond(tab-port) {
@@ -54,10 +58,10 @@
 }
 
 .section-book {
-  padding: 15rem 0;
+  padding: 15rem 5rem;
   // background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
   // background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
-  background: $color-grey-dark-3;
+  background: $color-secondary-light;
 
   @include respond(tab-port) {
     padding: 10rem 0;
@@ -71,10 +75,10 @@
       rgba($color-white, 0.9) 50%,
       transparent 50%
     ),
-    url(../tech/img-2.jpg);
+    url(../assets/img-2.avif);
   background-size: 100%;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+  box-shadow: 1rem 1.5rem 4rem rgba($color-black, 0.5);
 
   @include respond(tab-land) {
     background-image: linear-gradient(
@@ -83,7 +87,7 @@
         rgba($color-white, 0.9) 65%,
         transparent 65%
       ),
-      url(../tech/img-2.jpg);
+      url(../assets/img-2.avif);
     background-size: cover;
   }
 
@@ -93,7 +97,7 @@
         rgba($color-white, 0.9) 0%,
         rgba($color-white, 0.9) 100%
       ),
-      url(../tech/img-2.jpg);
+      url(../assets/img-2.avif);
   }
 
   &__form {

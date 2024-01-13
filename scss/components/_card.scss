@@ -75,7 +75,7 @@
           $color-secondary-light,
           $color-secondary-dark
         ),
-        url(../tech/img-3.jpg);
+        url(../assets/img-6.jpeg);
     }
 
     &--2 {
@@ -84,7 +84,7 @@
           $color-primary-light,
           $color-primary-dark
         ),
-        url(../tech/img-4.jpg);
+        url(../assets/img-3.avif);
     }
 
     &--3 {
@@ -93,7 +93,7 @@
           $color-tertiary-light,
           $color-tertiary-dark
         ),
-        url(../tech/img-5.jpg);
+        url(../assets/img-1.avif);
     }
   }
 
@@ -140,7 +140,7 @@
   }
 
   &__details {
-    padding: 3rem;
+    padding: 5rem 3rem;
 
     ul {
       list-style: none;

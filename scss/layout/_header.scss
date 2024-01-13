@@ -1,18 +1,15 @@
 .header {
   height: 85vh;
-  background-image: linear-gradient(
-    to right bottom,
-    rgba($color-primary-dark, 1),
-    rgba($color-primary-light, 1)
-  );
+  background-image: url(../../assets/music4all+instrumenten.jpg);
   background-size: cover;
   background-position: top;
+  background-repeat: no-repeat;
   position: relative;
-  background-image: radial-gradient(
-    circle 900px at -30% 50%,
-    $color-primary-dark 3%,
-    $color-primary-light 95%
-  );
+  // background-image: radial-gradient(
+  //   circle 900px at -30% 50%,
+  //   $color-primary-dark 3%,
+  //   $color-primary-light 95%
+  // );
 
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
     -webkit-clip-path: polygon(0 0 100% 0, 100% 75vh, 0 100%);
@@ -23,11 +20,7 @@
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5rem),
     only screen and (-webkit-min-device-pixel-ration: 2) and (min-width: 37.5rem),
     only screen and (min-width: 125em) {
-    background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-light, 0.8),
-      rgba($color-primary-dark, 0.8)
-    );
+    background-image: url(../../assets/music4all+instrumenten.jpg);
   }
 
   @include respond(phone) {
@@ -39,13 +32,24 @@
     position: absolute;
     top: 3rem;
     left: 3rem;
+    background-color: $color-white;
+    padding: 1rem;
+    height: 14rem;
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
   }
 
   &__logo {
-    height: 10rem;
+    height: 7rem;
   }
   &__text-box {
     position: absolute;
+    background-color: $color-grey-dark-2;
+    padding: 2rem;
+    opacity: 0.8;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
