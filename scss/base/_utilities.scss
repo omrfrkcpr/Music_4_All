@@ -7,7 +7,7 @@
 }
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important;
-  @include respon(tab-port) {
+  @include respond(tab-port) {
     margin-bottom: 3rem !important;
   }
 }
