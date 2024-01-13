@@ -54,6 +54,8 @@ Music_4_All Web Page (folder)
 
 ## Expected Outcome
 
+![music4All-web-page](https://github.com/omrfrkcpr/Music_4_All/assets/77440899/f0b2e005-458e-45af-b8aa-e46ab8fdf898)
+
 ## Objective
 
 ### At the end of the project, following topics are to be covered;
