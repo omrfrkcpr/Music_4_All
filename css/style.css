@@ -988,6 +988,7 @@ body {
   .header {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    background-image: url(../assets/music4all+instrumenten.jpg);
   }
   .header__text-box {
     margin-top: 12rem;
