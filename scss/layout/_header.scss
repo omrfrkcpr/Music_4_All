@@ -1,6 +1,6 @@
 .header {
   height: 85vh;
-  background-image: url(../../assets/music4all+instrumenten.jpg);
+  background-image: url(..assets/music4all+instrumenten.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5rem),
     only screen and (-webkit-min-device-pixel-ration: 2) and (min-width: 37.5rem),
     only screen and (min-width: 125em) {
-    background-image: url(../../assets/music4all+instrumenten.jpg);
+    background-image: url(../assets/music4all+instrumenten.jpg);
   }
 
   @include respond(phone) {
