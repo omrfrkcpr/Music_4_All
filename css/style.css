@@ -966,7 +966,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: url(..assets/music4all+instrumenten.jpg);
+  background-image: url(../assets/music4all+instrumenten.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
