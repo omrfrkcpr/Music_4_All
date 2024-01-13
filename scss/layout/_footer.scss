@@ -13,12 +13,12 @@
     margin-bottom: 1rem;
 
     @include respond(tab-port) {
-      margin-bottom: 6rem;
+      margin-bottom: 1rem;
     }
   }
 
   &__logo-iframe {
-    width: 70rem;
+    width: 100%;
     max-width: 200rem;
     min-width: 15rem;
     padding: 2rem;
@@ -26,14 +26,14 @@
   }
 
   &__logo {
-    width: 35rem;
+    width: 80%;
     height: auto;
-    margin: auto;
+    margin: 0;
   }
 
   &__navigation {
     border-top: 1px solid $color-grey-dark;
-    margin-left: 1rem;
+    // margin-left: 1rem;
     padding-top: 2rem;
     display: inline-block;
 
@@ -49,29 +49,26 @@
 
   &__item {
     display: inline-block;
-
-    &:not(:last-child) {
-      margin-right: 1.5rem;
-    }
+    line-height: 2rem;
   }
 
   &__link {
     &:link,
     &:visited {
-      color: $color-grey-light-1;
-      background-color: $color-secondary-light-2;
+      color: $color-black;
+      font-weight: bold;
       text-decoration: none;
       text-transform: uppercase;
       display: inline-block;
       transition: all 0.2s;
-      padding: 0 0.1rem;
+      padding: 0 0.5rem;
     }
 
     &:hover,
     &:active {
       color: $color-black;
       box-shadow: 0 1rem 1rem rgba($color-black, 0.4);
-      transform: rotate(5deg) scale(1.1);
+      transform: rotate(2deg) scale(1.1);
     }
   }
 
@@ -79,8 +76,10 @@
     border-top: 1px solid $color-grey-dark;
     margin-right: 1rem;
     padding-top: 2rem;
-    width: 80%;
+    text-align: center;
+    width: 100%;
     float: right;
+    line-height: 3rem;
 
     @include respond(tab-port) {
       width: 100%;
